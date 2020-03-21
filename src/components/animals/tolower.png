@@ -1,0 +1,13 @@
+import os
+
+def main():
+    try:
+        for file in os.listdir("."):
+            lower = os.path.splitext(file)[0].lower()
+            os.rename(file, lower) 
+        print("Finished")
+    except Exception as e:
+        print(e)
+            
+if __name__ == "__main__":
+    main()
