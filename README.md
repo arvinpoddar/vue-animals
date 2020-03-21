@@ -1,5 +1,7 @@
 # vue-animals
 
+![Vue Animals](./assets/hero.png)
+
 A Vue component to add customizable animal avatars to any project. Inspired by the Google Docs "Anonymous Animals", all images designed by [Jefferson Cheng]("https://jeffersoncheng.com/Anonymous-Animals") and property of Google.
 
 ## Installation Process
