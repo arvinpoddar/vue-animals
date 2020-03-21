@@ -115,23 +115,23 @@ Below are some examples of vue-animals that use multiple customization props at 
 
 ```html
 <!--Alligator image, rounded square shape, random color, 70px size-->
-<v-animal animal="alligator" rounded />
+<v-animal name="alligator" rounded />
 
 <!--Elephant image, square shape, blue color, 50px size-->
-<v-animal animal="elephant" color="blue" size="50px" square />
+<v-animal name="elephant" color="blue" size="50px" square />
 
 <!--Animated dolphin image, circular shape, orange color, 80px size-->
-<v-animal animal="dolphin" color="orange" size="80px" dance />
+<v-animal name="dolphin" color="orange" size="80px" dance />
 ```
 
 You can also add your own customizations by adding CSS classes, ID, or styles:
 
 ```html
-<v-animal animal="alligator" rounded class="my-custom-css" style="..." />
+<v-animal name="alligator" rounded class="my-custom-css" style="..." />
 ```
 
 Lastly, all props can be dynamically generated using computed properties
 
 ```html
-<v-animal :animal="animalVar" :rounded="isRounded" />
+<v-animal :name="animalVar" :rounded="isRounded" />
 ```
