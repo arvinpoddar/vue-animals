@@ -1,6 +1,6 @@
 {
   "name": "vue-animals",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -28,8 +28,8 @@
     "name": "Arvin Poddar",
     "email": "arvin.poddar@gmail.com"
   },
-  "repository": "https://github.com/username/project",
-  "bugs": "https://github.com/username/vproject/issues",
+  "repository": "https://github.com/arvinpoddar/vue-animals",
+  "bugs": "https://github.com/arvinpoddar/vue-animals",
   "keywords": [
     "anonymous",
     "animals",
