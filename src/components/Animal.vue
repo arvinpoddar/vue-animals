@@ -36,7 +36,7 @@ export default {
           `InvalidAnimal: '${this.name}' is not a valid animal name. Using random animal instead.`
         );
       }
-      return animals[Math.floor(Math.random() * animals.length)];
+      return animals[(animals.length * Math.random()) << 0];
     },
 
     getAvatar() {
